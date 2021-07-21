@@ -26,11 +26,11 @@ const Card: React.FC<CardProps> = ({ href, imgSrc, layoutId }) => {
 export default function Home() {
   return (
     <div>
-      <h1 className="text-4xl text-gray-900 sm:text-6xl lg:text-7xl mt-10 md:mt-24 leading-none font-extrabold tracking-tight  flex justify-center">
+      <h1 className="text-4xl text-gray-900 sm:text-6xl lg:text-7xl mt-10 md:mt-24 leading-none font-extrabold tracking-tight flex justify-center">
         Construa sites modernos com agilidade sem precisar sair do HTML.
       </h1>
 
-      <div className="grid w-full grid-cols-1 grid-rows-3 gap-4 mt-10 md:mt-24 md:grid-cols-3 md: grid-rows-1">
+      <div className="grid w-full grid-cols-1 grid-rows-3 gap-4 mt-10 md:mt-24 md:grid-cols-3 md:grid-rows-1">
         <Card href={"/nextjs"} imgSrc={"nextjs.svg"} layoutId={"nextjs-logo"} />
         <Card
           href={"/tailwindcss"}
